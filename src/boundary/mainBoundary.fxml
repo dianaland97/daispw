@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPane" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boundary.UserBoundary">
+   <children>
+      <ImageView fx:id="image" fitHeight="189.0" fitWidth="248.0" layoutX="308.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../../res/Logo.png" backgroundLoading="true"/>
+      </ImageView>
+      <TextField fx:id="user" layoutX="326.0" layoutY="266.0" promptText="Username" />
+      <PasswordField fx:id="pass" layoutX="326.0" layoutY="300.0" promptText="Password" />
+      <Button fx:id="log" layoutX="326.0" layoutY="340.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Button fx:id="reset" layoutX="402.0" layoutY="340.0" mnemonicParsing="false" onAction="#clear" text="Reimposta" />
+      <Label fx:id="info" alignment="TOP_CENTER" layoutX="372.0" layoutY="193.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Accedi">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

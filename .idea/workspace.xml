@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="PROVA6">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FERSAProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dianaland97" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/res" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/res/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/bean/AptManagementBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boundary/AptManagementBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boundary/aptManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boundary/indexPam.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boundary/mainBoundary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/control/AptManagementControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/UserControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/dao/AptManagementDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DBhelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DBmanage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dummy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/dummy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dummy/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Filters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/RegisteredUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/RenterAnnouncement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/TenantAnnouncement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/Cities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadAndException" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/threadAndException/EditTextException.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\marin\IdeaProjects\FERSAProject" />
+        <option value="C:\Users\marin\IdeaProjects\FERSAProject\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1RQ5unU61dubdiNZx0AdLZiGibx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dummy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\enumeration" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\entity" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\boundary" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\res" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\dummy" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\boundary" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy.Main" />
+      <module name="FERSAProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dummy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.MainLogin" />
+      <module name="FERSAProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dummy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy.Main" />
+      <module name="FERSAProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dummy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\marin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\marin\IdeaProjects\FERSAProject" />
+          <option name="myCopyRoot" value="C:\Users\marin\IdeaProjects\FERSAProject" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\marin\IdeaProjects\FERSAProject" />
+          <option name="myCopyRoot" value="C:\Users\marin\IdeaProjects\FERSAProject\dianaland97\daispw.git" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\marin\IdeaProjects\FERSAProject" />
+          <option name="myCopyRoot" value="C:\Users\marin\IdeaProjects\FERSAProject" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\marin\IdeaProjects\FERSAProject" />
+          <option name="myCopyRoot" value="C:\Users\marin\IdeaProjects\FERSAProject\dianaland97\daispw.git" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1569586708832" duration="6472000" />
+      <workItem from="1569835134063" duration="8952000" />
+      <workItem from="1569848546320" duration="5960000" />
+      <workItem from="1569941181237" duration="7602000" />
+      <workItem from="1570004022517" duration="443000" />
+      <workItem from="1570024924733" duration="7582000" />
+      <workItem from="1570109396418" duration="5955000" />
+      <workItem from="1570174855598" duration="4568000" />
+      <workItem from="1570448456560" duration="9118000" />
+      <workItem from="1570543598411" duration="9564000" />
+      <workItem from="1570717311513" duration="1720000" />
+      <workItem from="1571056078722" duration="8317000" />
+      <workItem from="1571384378300" duration="955000" />
+      <workItem from="1571637842946" duration="9130000" />
+      <workItem from="1571648785308" duration="5594000" />
+      <workItem from="1571655436585" duration="910000" />
+      <workItem from="1571752739398" duration="2778000" />
+      <workItem from="1571755555806" duration="1216000" />
+      <workItem from="1571757044980" duration="879000" />
+      <workItem from="1571757936219" duration="278000" />
+      <workItem from="1571758215062" duration="2475000" />
+    </task>
+    <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
+      <created>1571644260941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571644260941</updated>
+    </task>
+    <task id="LOCAL-00002" summary="aggiornato DB manage Apt ore 10.41">
+      <created>1571647294911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571647294911</updated>
+    </task>
+    <task id="LOCAL-00003" summary="aggiornato DB manage Apt ore 12.20">
+      <created>1571653241846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571653241846</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aggiornato DB manage Apt ore 16.07">
+      <created>1571753272806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571753272806</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PROVA1">
+      <created>1571758403523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571758403523</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PROVA2">
+      <created>1571759040265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571759040265</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PROVA3">
+      <created>1571759818116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571759818116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="aggiornato DB manage Apt" />
+    <MESSAGE value="aggiornato DB manage Apt ore 10.41" />
+    <MESSAGE value="aggiornato DB manage Apt ore 12.20" />
+    <MESSAGE value="aggiornato DB manage Apt ore 13.03" />
+    <MESSAGE value="aggiornato DB manage Apt ore 16.01" />
+    <MESSAGE value="aggiornato DB manage Apt ore 16.07" />
+    <MESSAGE value="yes" />
+    <MESSAGE value="xdfghj" />
+    <MESSAGE value="jhujik" />
+    <MESSAGE value="prova1" />
+    <MESSAGE value="prova2" />
+    <MESSAGE value="prova3" />
+    <MESSAGE value="PROVA1" />
+    <MESSAGE value="PROVA2" />
+    <MESSAGE value="PROVA3" />
+    <MESSAGE value="PROVA4" />
+    <MESSAGE value="PROVA5" />
+    <MESSAGE value="PROVA6" />
+    <MESSAGE value="PROVA7" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROVA7" />
+  </component>
+</project>
