@@ -305,7 +305,7 @@
       <workItem from="1571758215062" duration="3081000" />
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
-      <workItem from="1571827068525" duration="239000" />
+      <workItem from="1571827068525" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -377,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571821584112</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="no msg">
+      <created>1571827485951</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571827485952</updated>
+    </task>
+    <task id="LOCAL-00012" summary="no msg">
+      <created>1571827682615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571827682615</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +436,7 @@
     <MESSAGE value="PROVA7" />
     <MESSAGE value="PROVA6" />
     <MESSAGE value="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java" />
+    <MESSAGE value="no msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="no msg" />
   </component>
 </project>
