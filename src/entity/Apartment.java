@@ -8,6 +8,151 @@ import java.util.List;
 public class Apartment {
     private int apartmentId;
     private RegisteredUser owner;
+
+    public int getApartmentId() {
+        return apartmentId;
+    }
+
+    public void setApartmentId(int apartmentId) {
+        this.apartmentId = apartmentId;
+    }
+
+    public RegisteredUser getOwner() {
+        return owner;
+    }
+
+    public void setOwner(RegisteredUser owner) {
+        this.owner = owner;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getCap() {
+        return cap;
+    }
+
+    public void setCap(String cap) {
+        this.cap = cap;
+    }
+
+    public Cities getCity() {
+        return city;
+    }
+
+    public void setCity(Cities city) {
+        this.city = city;
+    }
+
+    public String getCitys() {
+        return citys;
+    }
+
+    public void setCitys(String citys) {
+        this.citys = citys;
+    }
+
+    public String getPlane() {
+        return plane;
+    }
+
+    public void setPlane(String plane) {
+        this.plane = plane;
+    }
+
+    public String getIndoor() {
+        return indoor;
+    }
+
+    public void setIndoor(String indoor) {
+        this.indoor = indoor;
+    }
+
+    public String getStair() {
+        return stair;
+    }
+
+    public void setStair(String stair) {
+        this.stair = stair;
+    }
+
+    public double getTotalDimension() {
+        return totalDimension;
+    }
+
+    public void setTotalDimension(double totalDimension) {
+        this.totalDimension = totalDimension;
+    }
+
+    public double getFreeSpace() {
+        return freeSpace;
+    }
+
+    public void setFreeSpace(double freeSpace) {
+        this.freeSpace = freeSpace;
+    }
+
+    public int getNumberOfRooms() {
+        return numberOfRooms;
+    }
+
+    public void setNumberOfRooms(int numberOfRooms) {
+        this.numberOfRooms = numberOfRooms;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public double getAvgEvaluation() {
+        return avgEvaluation;
+    }
+
+    public void setAvgEvaluation(double avgEvaluation) {
+        this.avgEvaluation = avgEvaluation;
+    }
+
+    public List<Services> getServices() {
+        return services;
+    }
+
+    public void setServices(List<Services> services) {
+        this.services = services;
+    }
+
+    public List<Service> getService() {
+        return service;
+    }
+
+    public void setService(List<Service> service) {
+        this.service = service;
+    }
+
+    public List<Room> getRooms() {
+        return rooms;
+    }
+
+    public void setRooms(List<Room> rooms) {
+        this.rooms = rooms;
+    }
+
+    public void setAptRentCost(double aptRentCost) {
+        this.aptRentCost = aptRentCost;
+    }
+
     private String address;
     private String cap;
     private Cities city;
@@ -18,6 +163,15 @@ public class Apartment {
     private double totalDimension;
     private double freeSpace;
     private int numberOfRooms;
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
     private String state;
     private String title;
     private String description;

@@ -73,34 +73,33 @@ public class AptManagementBoundary {
     //inizializzatore pagina gestioneApt lanciata da indexPam
     public void getList(String nick) {
 
-        /*
+
         aptManagementBean = new AptManagementBean(nick);
         aptManagementControl = AptManagementControl.getInstance();
 
-        boolean validateIndice = false;
-        boolean validateStato = aptManagementControl.validateStato();
-        validateIndice = aptManagementControl.appIsEmpty();
+        boolean checkapt = aptManagementControl.checkIdAndStateApartment(aptManagementBean.getNick());
 
-        if (validateIndice == true || validateStato == false) {
+        if (checkapt == false) {
 
             this.controlField.setText("Nessun appartamento registrato");
         }
 
         //table.getColumns().addAll(idApt, statoApt, indirizzoApt, cittaApt, provinciaApt);
 
+
         else {
 
 
             idApt.setCellValueFactory(new PropertyValueFactory<>("id"));
-            statoApt.setCellValueFactory(new PropertyValueFactory<>("stato"));
-            indirizzoApt.setCellValueFactory(new PropertyValueFactory<>("indirizzo"));
-            cittaApt.setCellValueFactory(new PropertyValueFactory<>("citta"));
-            provinciaApt.setCellValueFactory(new PropertyValueFactory<>("provincia"));
+            statoApt.setCellValueFactory(new PropertyValueFactory<>("state"));
+            indirizzoApt.setCellValueFactory(new PropertyValueFactory<>("address"));
+            cittaApt.setCellValueFactory(new PropertyValueFactory<>("citys"));
+            provinciaApt.setCellValueFactory(new PropertyValueFactory<>("state"));
 
-            DownloaderThreadApt th = new DownloaderThreadApt(this.getNickname(), table);
-            th.run();
+            aptManagementControl.printInformationAptOnTable(aptManagementBean.getNick(), table);
+        }
 
-
+/*
 	     	for (int i=0;i<app.size();i++)
 	    	 {
 	    	 	if (stato.get(i).equals("Deleted")){
@@ -126,12 +125,15 @@ public class AptManagementBoundary {
             }
         });
 
+ */
+
     }
 
 
     @FXML
     void goToTheNextPage(ActionEvent event) throws IOException {
         //lancio eccezione su campo vuoto
+        /*
         try {
             if (!this.textField.getText().isEmpty()) {
                 int setId= Integer.parseInt(this.textField.getText());
@@ -165,13 +167,15 @@ public class AptManagementBoundary {
                 throw new EditTextException();
             }}catch(EditTextException exc) {
             this.controlField.setText(exc.emptyEditText());}
+
+         */
     }
 
 
     @FXML
     void returnHome(ActionEvent event) throws IOException {
 
-
+        /*
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("IndexPam.fxml"));
         Parent IndexPamParent = loader.load();
@@ -189,13 +193,17 @@ public class AptManagementBoundary {
         window.setResizable(false);
         window.show();
 
-*/
+         */
+
+
     }
+
+
 
     public void GestioneApt (ActionEvent event) throws IOException
     {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("GestioneApt.fxml"));
+        loader.setLocation(getClass().getResource("/boundary/viewListAptManagement.fxml"));
         Parent IndexPamParent = loader.load();
 
         Scene tableViewScene = new Scene(IndexPamParent);
@@ -214,7 +222,7 @@ public class AptManagementBoundary {
     public void InserisciApt(ActionEvent event) throws IOException
     {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("InserisciApt.fxml"));
+        loader.setLocation(getClass().getResource("insertApt.fxml"));
         Parent IndexPamParent = loader.load();
 
         Scene tableViewScene = new Scene(IndexPamParent);
@@ -230,5 +238,7 @@ public class AptManagementBoundary {
         window.show();
     }
 }
+
+
 
 

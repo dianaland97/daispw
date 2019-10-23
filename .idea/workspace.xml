@@ -2,58 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="PROVA6">
-      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FERSAProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dianaland97" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/res" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/res/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/bean/AptManagementBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boundary/AptManagementBoundary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boundary/aptManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boundary/indexPam.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boundary/mainBoundary.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/control" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/control/AptManagementControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/control/UserControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/dao/AptManagementDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DBhelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DBmanage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummy" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/dummy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummy/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Announcement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Filters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/RegisteredUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/RenterAnnouncement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/TenantAnnouncement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/Cities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/Services.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadAndException" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/threadAndException/EditTextException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boundary/insertApt.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boundary/viewListAptManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threadAndException/DownloaderThreadApt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boundary/AptManagementBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boundary/AptManagementBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boundary/UserBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boundary/UserBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/control/AptManagementControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/AptManagementControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Apartment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,9 +91,6 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1RQ5unU61dubdiNZx0AdLZiGibx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -158,6 +114,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\boundary" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\threadAndException" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\res" />
+      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\dummy" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dummy" />
     </key>
@@ -166,11 +128,6 @@
       <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\entity" />
       <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\boundary" />
       <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\res" />
-      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\dummy" />
-      <recent name="C:\Users\marin\IdeaProjects\FERSAProject\src\boundary" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,6 +250,7 @@
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\marin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -348,7 +306,9 @@
       <workItem from="1571755555806" duration="1216000" />
       <workItem from="1571757044980" duration="879000" />
       <workItem from="1571757936219" duration="278000" />
-      <workItem from="1571758215062" duration="2475000" />
+      <workItem from="1571758215062" duration="3081000" />
+      <workItem from="1571762473413" duration="1512000" />
+      <workItem from="1571812637367" duration="8307000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -399,7 +359,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571759818116</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="PROVA7">
+      <created>1571760728589</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571760728589</updated>
+    </task>
+    <task id="LOCAL-00009" summary="PROVA6">
+      <created>1571761006099</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571761006099</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,8 +415,8 @@
     <MESSAGE value="PROVA3" />
     <MESSAGE value="PROVA4" />
     <MESSAGE value="PROVA5" />
-    <MESSAGE value="PROVA6" />
     <MESSAGE value="PROVA7" />
-    <option name="LAST_COMMIT_MESSAGE" value="PROVA7" />
+    <MESSAGE value="PROVA6" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROVA6" />
   </component>
 </project>
