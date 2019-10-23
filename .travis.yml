@@ -2,5 +2,5 @@ language: java
 jdk:
   - openjdk8
 before_script:
-  - cd FERSAProject
+  - cd /dianaland97/daispw/FERSAProject
 script: ant build
