@@ -47,13 +47,7 @@
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_fersaproject.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_fersaproject_Wed_Oct_23_12-39-09_CEST_2019.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,9 +128,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -354,7 +350,7 @@
       <workItem from="1571758215062" duration="3081000" />
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
-      <workItem from="1571827068525" duration="2524000" />
+      <workItem from="1571827068525" duration="2816000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -461,7 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571829313809</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016">
+      <created>1571829682012</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571829682012</updated>
+    </task>
+    <task id="LOCAL-00017" summary="no msg">
+      <created>1571829802401</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571829802401</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
