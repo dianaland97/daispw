@@ -47,6 +47,8 @@
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -349,7 +351,7 @@
       <workItem from="1571758215062" duration="3081000" />
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
-      <workItem from="1571827068525" duration="4124000" />
+      <workItem from="1571827068525" duration="4785000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -498,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571830735279</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="no msg">
+      <created>1571831439878</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571831439878</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,9 +551,9 @@
     <MESSAGE value="PROVA5" />
     <MESSAGE value="PROVA7" />
     <MESSAGE value="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java" />
-    <MESSAGE value="PROVA6" />
     <MESSAGE value="nope" />
     <MESSAGE value="no msg" />
-    <option name="LAST_COMMIT_MESSAGE" value="no msg" />
+    <MESSAGE value="PROVA6" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROVA6" />
   </component>
 </project>
