@@ -158,7 +158,7 @@
   
   <target name="compile.module.fersaproject.production" description="Compile module FERSAProject; production classes">
     <mkdir dir="${fersaproject.output.dir}"/>
-    <javac destdir="${fersaproject.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" includeantruntime="false" fork="true" executable="${module.jdk.bin.fersaproject}/javac" >
+    <javac destdir="${fersaproject.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" includeantruntime="false" fork="true" executable="${module.jdk.bin.fersaproject}" >
       <compilerarg line="${compiler.args.fersaproject}"/>
       <bootclasspath refid="fersaproject.module.bootclasspath"/>
       <classpath refid="fersaproject.module.production.classpath"/>
