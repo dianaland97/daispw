@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_fersaproject" default="compile.module.fersaproject">
+  <dirname property="module.fersaproject.basedir" file="${ant.file.module_fersaproject}"/>
+  
+  <property name="module.jdk.home.fersaproject" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.fersaproject" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.fersaproject" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.fersaproject" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="fersaproject.output.dir" value="${module.fersaproject.basedir}/out/production/FERSAProject"/>
+  <property name="fersaproject.testoutput.dir" value="${module.fersaproject.basedir}/out/test/FERSAProject"/>
+  
+  <path id="fersaproject.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="fersaproject.module.production.classpath">
+    <path refid="${module.jdk.classpath.fersaproject}"/>
+    <path refid="library.postgresql-42.2.8.classpath"/>
+  </path>
+  
+  <path id="fersaproject.runtime.production.module.classpath">
+    <pathelement location="${fersaproject.output.dir}"/>
+    <path refid="library.postgresql-42.2.8.classpath"/>
+  </path>
+  
+  <path id="fersaproject.module.classpath">
+    <path refid="${module.jdk.classpath.fersaproject}"/>
+    <pathelement location="${fersaproject.output.dir}"/>
+    <path refid="library.postgresql-42.2.8.classpath"/>
+  </path>
+  
+  <path id="fersaproject.runtime.module.classpath">
+    <pathelement location="${fersaproject.testoutput.dir}"/>
+    <pathelement location="${fersaproject.output.dir}"/>
+    <path refid="library.postgresql-42.2.8.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.fersaproject">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.fersaproject">
+    <patternset refid="excluded.from.module.fersaproject"/>
+  </patternset>
+  
+  <path id="fersaproject.module.sourcepath">
+    <dirset dir="${module.fersaproject.basedir}">
+      <include name="src"/>
+      <include name="res"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.fersaproject" depends="compile.module.fersaproject.production,compile.module.fersaproject.tests" description="Compile module FERSAProject"/>
+  
+  <target name="compile.module.fersaproject.production" depends="register.custom.compilers" description="Compile module FERSAProject; production classes">
+    <mkdir dir="${fersaproject.output.dir}"/>
+    <javac2 destdir="${fersaproject.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.fersaproject}/javac">
+      <compilerarg line="${compiler.args.fersaproject}"/>
+      <bootclasspath refid="fersaproject.module.bootclasspath"/>
+      <classpath refid="fersaproject.module.production.classpath"/>
+      <src refid="fersaproject.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.fersaproject"/>
+    </javac2>
+    
+    <copy todir="${fersaproject.output.dir}">
+      <fileset dir="${module.fersaproject.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.fersaproject.basedir}/res">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.fersaproject.tests" depends="register.custom.compilers,compile.module.fersaproject.production" description="compile module FERSAProject; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.fersaproject" description="cleanup module">
+    <delete dir="${fersaproject.output.dir}"/>
+    <delete dir="${fersaproject.testoutput.dir}"/>
+  </target>
+</project>

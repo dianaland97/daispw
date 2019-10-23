@@ -3,11 +3,55 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="PROVA6">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/build.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dianaland97" afterDir="true" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_fersaproject_Wed_Oct_23_12-39-09_CEST_2019.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/bean" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/bean/AptManagementBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/bean/UserBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/AptManagementBoundary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/UserBoundary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/aptManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/indexPam.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/insertApt.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/mainBoundary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/boundary/viewListAptManagement.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/control" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/control/AptManagementControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/control/UserControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dao/AptManagementDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dao/DBhelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dao/DBmanage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dao/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dummy" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dummy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/dummy/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/Announcement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/Apartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/Filters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/RegisteredUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/RenterAnnouncement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/Room.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/TenantAnnouncement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/enumeration" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/enumeration/Cities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/enumeration/Services.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +135,7 @@
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -308,7 +352,7 @@
       <workItem from="1571758215062" duration="3081000" />
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
-      <workItem from="1571827068525" duration="1474000" />
+      <workItem from="1571827068525" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -401,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571828005613</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="no msg">
+      <created>1571828592837</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571828592837</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,6 +497,7 @@
     <MESSAGE value="PROVA7" />
     <MESSAGE value="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java" />
     <MESSAGE value="PROVA6" />
+    <MESSAGE value="nope" />
     <MESSAGE value="no msg" />
     <option name="LAST_COMMIT_MESSAGE" value="no msg" />
   </component>
