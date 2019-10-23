@@ -47,7 +47,6 @@
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -352,7 +351,7 @@
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
       <workItem from="1571827068525" duration="4785000" />
-      <workItem from="1571833328011" duration="1769000" />
+      <workItem from="1571833328011" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -522,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571834369705</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="b">
+      <created>1571835302030</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571835302030</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,6 +576,7 @@
     <MESSAGE value="PROVA6" />
     <MESSAGE value="no msg" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="b" />
+    <option name="LAST_COMMIT_MESSAGE" value="b" />
   </component>
 </project>
