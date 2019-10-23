@@ -47,7 +47,9 @@
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,8 +131,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -350,7 +350,7 @@
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
       <workItem from="1571827068525" duration="4785000" />
-      <workItem from="1571833328011" duration="6674000" />
+      <workItem from="1571833328011" duration="7285000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -597,7 +597,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571840749567</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="123456789">
+      <created>1571840920115</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1571840920115</updated>
+    </task>
+    <task id="LOCAL-00037" summary="PROVA6">
+      <created>1571841120784</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1571841120784</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +636,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="aggiornato DB manage Apt ore 13.03" />
     <MESSAGE value="aggiornato DB manage Apt ore 16.01" />
     <MESSAGE value="aggiornato DB manage Apt ore 16.07" />
     <MESSAGE value="yes" />
@@ -642,11 +655,12 @@
     <MESSAGE value="no msg" />
     <MESSAGE value="8" />
     <MESSAGE value="b" />
-    <MESSAGE value="PROVA6" />
     <MESSAGE value="123" />
     <MESSAGE value="1234" />
     <MESSAGE value="uff" />
     <MESSAGE value="set to false 161" />
-    <option name="LAST_COMMIT_MESSAGE" value="set to false 161" />
+    <MESSAGE value="123456789" />
+    <MESSAGE value="PROVA6" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROVA6" />
   </component>
 </project>
