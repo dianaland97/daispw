@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="PROVA6">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/artifacts" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/dianaland97" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/boundary/insertApt.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boundary/viewListAptManagement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadAndException/DownloaderThreadApt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boundary/AptManagementBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boundary/AptManagementBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boundary/UserBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boundary/UserBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/control/AptManagementControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/AptManagementControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Apartment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +85,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -308,7 +304,8 @@
       <workItem from="1571757936219" duration="278000" />
       <workItem from="1571758215062" duration="3081000" />
       <workItem from="1571762473413" duration="1512000" />
-      <workItem from="1571812637367" duration="8307000" />
+      <workItem from="1571812637367" duration="8769000" />
+      <workItem from="1571827068525" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -373,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571761006099</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java">
+      <created>1571821584112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571821584112</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +421,7 @@
     <MESSAGE value="PROVA5" />
     <MESSAGE value="PROVA7" />
     <MESSAGE value="PROVA6" />
-    <option name="LAST_COMMIT_MESSAGE" value="PROVA6" />
+    <MESSAGE value="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifiche in: &#10;- AptManagementBoundary&#10;- UserBoundary&#10;- AptManagementControl&#10;- Apartment&#10;aggiunte delle classi fxml e .java" />
   </component>
 </project>
