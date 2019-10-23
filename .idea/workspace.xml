@@ -47,6 +47,7 @@
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -349,7 +350,7 @@
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
       <workItem from="1571827068525" duration="4785000" />
-      <workItem from="1571833328011" duration="6367000" />
+      <workItem from="1571833328011" duration="6674000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -589,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571840538274</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="set to false 161">
+      <created>1571840749567</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1571840749567</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +622,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="aggiornato DB manage Apt ore 12.20" />
     <MESSAGE value="aggiornato DB manage Apt ore 13.03" />
     <MESSAGE value="aggiornato DB manage Apt ore 16.01" />
     <MESSAGE value="aggiornato DB manage Apt ore 16.07" />
@@ -639,6 +646,7 @@
     <MESSAGE value="123" />
     <MESSAGE value="1234" />
     <MESSAGE value="uff" />
-    <option name="LAST_COMMIT_MESSAGE" value="uff" />
+    <MESSAGE value="set to false 161" />
+    <option name="LAST_COMMIT_MESSAGE" value="set to false 161" />
   </component>
 </project>
