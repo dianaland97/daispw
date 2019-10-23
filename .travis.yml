@@ -3,4 +3,4 @@ jdk:
   - openjdk8
 before_script:
   - dir
-script: ant build
+script: ant
