@@ -21,6 +21,13 @@
             </SvnBranchConfiguration>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/dianaland97/daispw.git">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://github.com/dianaland97/daispw.git" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
