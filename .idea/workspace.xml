@@ -47,10 +47,6 @@
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/DownloaderThreadApt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/FERSAProject/threadAndException/EditTextException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianaland97/daispw.git/trunk/build.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -353,7 +349,7 @@
       <workItem from="1571762473413" duration="1512000" />
       <workItem from="1571812637367" duration="8769000" />
       <workItem from="1571827068525" duration="4785000" />
-      <workItem from="1571833328011" duration="6093000" />
+      <workItem from="1571833328011" duration="6367000" />
     </task>
     <task id="LOCAL-00001" summary="aggiornato DB manage Apt">
       <created>1571644260941</created>
@@ -572,7 +568,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571838862837</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="123">
+      <created>1571840353293</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1571840353293</updated>
+    </task>
+    <task id="LOCAL-00033" summary="1234">
+      <created>1571840429418</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1571840429418</updated>
+    </task>
+    <task id="LOCAL-00034" summary="uff">
+      <created>1571840538274</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1571840538274</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,8 +614,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="aggiornato DB manage Apt" />
-    <MESSAGE value="aggiornato DB manage Apt ore 10.41" />
     <MESSAGE value="aggiornato DB manage Apt ore 12.20" />
     <MESSAGE value="aggiornato DB manage Apt ore 13.03" />
     <MESSAGE value="aggiornato DB manage Apt ore 16.01" />
@@ -621,6 +636,9 @@
     <MESSAGE value="8" />
     <MESSAGE value="b" />
     <MESSAGE value="PROVA6" />
-    <option name="LAST_COMMIT_MESSAGE" value="PROVA6" />
+    <MESSAGE value="123" />
+    <MESSAGE value="1234" />
+    <MESSAGE value="uff" />
+    <option name="LAST_COMMIT_MESSAGE" value="uff" />
   </component>
 </project>
